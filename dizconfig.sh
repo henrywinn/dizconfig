@@ -1,12 +1,4 @@
 #!/bin/sh
-case "$1" in
-    install_zsh)
-        install_zsh
-    ;;
-    *)
-        help
-    ;;
-esac
 
 function help() {
     echo "dizconfig - A script to help me (henrywinn@henrywinn.com) configure my server to do stuff I want it to do"
@@ -21,3 +13,12 @@ function install_zsh() {
     apt-get install zsh
     chsh -s $(which zsh)
 }
+
+case "$1" in
+    install_zsh)
+        install_zsh
+    ;;
+    *)
+        help
+    ;;
+esac
