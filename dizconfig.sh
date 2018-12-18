@@ -1,6 +1,6 @@
 #!/bin/sh
 
-function help() {
+function help () {
     echo "dizconfig - A script to help me (henrywinn@henrywinn.com) configure my server to do stuff I want it to do"
     echo ""
     echo "    jazz init                  - include jasmine in the project";
@@ -8,7 +8,7 @@ function help() {
     echo "    jazz run                   - runs tests in browser";
 }
 
-function install_zsh() {
+function install_zsh () {
     apt-get update
     apt-get install zsh
     chsh -s $(which zsh)
