@@ -1,3 +1,4 @@
+#!/bin/sh
 case "$1" in
     install_zsh)
         install_zsh
