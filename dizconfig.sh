@@ -1,11 +1,11 @@
 #!/bin/sh
 
 help() {
-    echo "dizconfig - A script to help me (henrywinn@henrywinn.com) configure my server to do stuff I want it to do"
+    echo "    dizconfig - A script to help me (henrywinn@henrywinn.com) configure my server to do stuff I want it to do"
     echo ""
-    echo "    jazz init                  - include jasmine in the project";
-    echo "    jazz create FunctionName   - creates ./src/FunctionName.js ./spec/FunctionNameSpec.js";
-    echo "    jazz run                   - runs tests in browser";
+    echo "    dizconfig install_zsh      - installs zsh shell";
+    echo "    dizconfig install_algo     - installs algo vpn server";
+    echo "    dizconfig help             - shows help";
 }
 
 install_zsh() {
